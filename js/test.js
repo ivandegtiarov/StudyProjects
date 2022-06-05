@@ -24,3 +24,15 @@ console.log(studentInfo);
 
 console.log(5 + '6');
 
+//Условие 
+
+/* let num = 101;
+(num == 100) ? console.log("ok"): console.log("Erorr"); */
+
+/* if (num = 100) {
+    console.log("ok");
+}
+else {
+    console.log("Error");
+}
+ */
