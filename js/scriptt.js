@@ -40,3 +40,5 @@ const q1 = prompt("Один из последних просмотренных �
 const q2 = prompt("На сколько оцените его ?",'');
 personalMovieDB.movies[q1] = q2;
 console.log(personalMovieDB);
+
+//second task

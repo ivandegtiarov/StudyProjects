@@ -77,12 +77,26 @@ console.log( NaN || null && !3 && undefined || 5); // 5
 console.log( 5 === 5 && 3 > 1 || 5);// 5
 
 
-let hamburger;
-const fries = NaN;
-const cola = 0;
-const nuggets = 2;
- 
-if (hamburger && cola || fries === 3 && nuggets) {
-   console.log('Done!')
-}
 
+
+// Циклы 
+
+let thisNum = 1;
+
+/* while (thisNum < 25) { 
+    console.log(thisNum);
+    thisNum++;
+} */
+
+/* do {
+    console.log(thisNum);
+    thisNum++;    
+}
+while (thisNum < 25); */
+
+for (let i = 1; i < 10; i++) {
+    if (i === 6) {
+        continue;
+    }
+    console.log(i);
+}
