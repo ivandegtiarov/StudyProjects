@@ -16,7 +16,7 @@ let filmsInfo = {
 }
 
 fantasyFilms = filmsInfo.category.fantasy;
-console.log(fantasyFilms)
+console.log(fantasyFilms);
 
 let clientInfo = {
     name: "Ivan",
@@ -25,6 +25,6 @@ let clientInfo = {
 };
 
 
-console.log(`Welcome to our shop ! ${clientInfo.name} !`)
+console.log(`Welcome to our shop ! ${clientInfo.name} !`);
 
-console.log(`${clientInfo.name} ${clientInfo.surname} your favorite film are:`, clientInfo.favfilms)
+console.log(`${clientInfo.name} ${clientInfo.surname} your favorite film are:`, clientInfo.favfilms);
